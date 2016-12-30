@@ -1,0 +1,8 @@
+
+
+spring:
+  application:
+    name: pcf-client-service
+server:
+  port: 8085
+
