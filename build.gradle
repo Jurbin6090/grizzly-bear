@@ -3,6 +3,7 @@ buildscript {
 		springBootVersion = '1.4.3.RELEASE'
 	}
 	repositories {
+        mavenLocal()
 		maven {
 			url 'http://dev.cooksys.com/nexus/repository/maven-public/'
 		}
@@ -26,6 +27,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
+    mavenLocal()
 	maven {
 		url 'http://dev.cooksys.com/nexus/repository/maven-public/'
 	}
