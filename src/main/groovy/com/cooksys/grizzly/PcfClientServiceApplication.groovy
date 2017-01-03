@@ -1,8 +1,7 @@
-package com.cooksys.pcf.client
+package com.cooksys.grizzly
 
-import com.cooksys.pcf.client.model.Client
-import com.cooksys.pcf.client.repo.ClientRepository
-import org.slf4j.Logger
+import com.cooksys.grizzly.model.Client
+import com.cooksys.grizzly.repo.ClientRepository
 import org.slf4j.LoggerFactory
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication

@@ -1,6 +1,6 @@
-package com.cooksys.pcf.client.repo
+package com.cooksys.grizzly.repo
 
-import com.cooksys.pcf.client.model.Client
+import com.cooksys.grizzly.model.Client
 import org.springframework.data.mongodb.repository.MongoRepository
 
 /**

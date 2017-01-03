@@ -1,4 +1,4 @@
-package com.cooksys.pcf.client.model
+package com.cooksys.grizzly.model
 
 import groovy.transform.ToString
 

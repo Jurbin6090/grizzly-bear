@@ -20,7 +20,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'com.cooksys.docker'
 apply plugin: 'application'
 
-group 'pcf-client-service'
+group 'com.cooksys'
 version '0.0.1-SNAPSHOT'
 
 sourceCompatibility = 1.8
