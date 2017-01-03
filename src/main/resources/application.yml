@@ -1,8 +1,6 @@
-
-
 spring:
   application:
-    name: pcf-client-service
+    name: grizzy-bear
 server:
   port: 8085
 

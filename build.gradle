@@ -34,6 +34,11 @@ repositories {
 	mavenCentral()
 }
 
+docker {
+    javaApplication {
+        ports = [8085]
+    }
+}
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-mongodb')

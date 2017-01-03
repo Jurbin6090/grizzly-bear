@@ -41,7 +41,16 @@ class PcfClientServiceApplication {
     }
 
     @RequestMapping(path = "client", method = RequestMethod.PATCH)
-    Client updateClient(@RequestBody Client client) {
+    Client patchClient(@RequestBody Client client) {
+        def existing = clientRepository.findOne(client.id)
+
+        def merged = existing.properties + client.properties as Client
+
+        clientRepository.save(merged)
+    }
+
+    @RequestMapping(path = "client", method = RequestMethod.PUT)
+    Client putClient(@RequestBody Client client) {
         clientRepository.save(client)
     }
 
