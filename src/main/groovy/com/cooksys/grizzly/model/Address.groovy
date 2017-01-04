@@ -1,11 +1,5 @@
 package com.cooksys.grizzly.model
 
-import groovy.transform.ToString
-
-/**
- * Created by ft4 on 2016-12-30.
- */
-@ToString
 class Address {
 
     String street1

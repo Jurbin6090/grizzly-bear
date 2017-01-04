@@ -8,7 +8,6 @@ import org.springframework.data.mongodb.core.mapping.Document
  * Created by ft4 on 2016-12-30.
  */
 @Document
-@ToString
 class Client {
 
     String id
@@ -18,4 +17,7 @@ class Client {
 
     Address address
 
+    Billing billing
+
+    String notes
 }
