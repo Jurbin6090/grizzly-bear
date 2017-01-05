@@ -1,5 +1,6 @@
 package com.cooksys.grizzly.model
 
+import org.springframework.data.mongodb.core.index.Indexed
 import org.springframework.data.mongodb.core.mapping.Document
 
 /**
@@ -10,7 +11,9 @@ class Project {
 
     String id
 
-    String name
+    @Indexed String clientId
+
+    @Indexed String name
 
     String workOrder
 
